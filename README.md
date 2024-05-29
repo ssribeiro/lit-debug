@@ -6,7 +6,7 @@ This code was created to follow the Lit Protocol documentation strictly.
 
 # What are we trying to do?
 
-Everything on the NodeJS site, for a while:
+Everything is suppose to run on the NodeJS side, for a while:
 
 > Deploy a Lit Action
 
