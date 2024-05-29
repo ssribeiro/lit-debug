@@ -1,0 +1,40 @@
+{
+  "name": "lit-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "all": "getlit build && npm run deploy-lit-action && npm run buy-capacity-credits && npm run delegate-to-action && npm run call-simple-lit-action",
+    "deploy-lit-action": "ts-node scripts/deploy-lit-action.ts dummy-sign",
+    "buy-capacity-credits": "ts-node scripts/buy-capacity-credits.ts",
+    "delegate-to-action": "ts-node scripts/delegate-to-action.ts",
+    "call-simple-lit-action": "ts-node tools/test/call-simple-lit-action.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@lit-protocol/lit-node-client": "^5.1.0",
+    "@lit-protocol/types": "~5.1.0",
+    "bignumber.js-9.1.2": "npm:bignumber.js@9.1.2",
+    "crypto-js-4.2.0": "npm:crypto-js@4.2.0",
+    "ethers-6.12.1": "npm:ethers@6.12.1",
+    "ipfs-only-hash": "~4.0.0",
+    "json-stable-stringify": "~1.1.1",
+    "multiformats-9.9.0": "npm:multiformats@9.9.0"
+  },
+  "devDependencies": {
+    "@lit-protocol/constants": "~5.1.0",
+    "@lit-protocol/contracts-sdk": "~5.1.0",
+    "@pinata/sdk": "~2.1.0",
+    "@types/crypto-js-4.2.0": "npm:@types/crypto-js@4.2.2",
+    "@types/node": "~20.11.30",
+    "dotenv": "~16.4.5",
+    "isomorphic-fetch": "~3.0.0",
+    "nodemon": "^3.1.0",
+    "rimraf": "~5.0.5",
+    "siwe": "~2.1.4",
+    "ts-loader": "~9.5.1",
+    "ts-node": "~10.9.2",
+    "typescript": "~5.4.2"
+  }
+}
