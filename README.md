@@ -50,4 +50,6 @@ npm run call-simple-lit-action
 
 # Current Error
 
+resourceAbilityRequests = undefined
+
 # We kindly ask the Lit Support team to provide feedback on fixing this error.
