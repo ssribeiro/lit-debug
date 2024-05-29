@@ -1,7 +1,7 @@
 import { LitNodeClient } from "@lit-protocol/lit-node-client";
 import { AuthSig } from "@lit-protocol/types";
 import { ethers } from "ethers-6.12.1";
-import siwe from "siwe";
+import * as siwe from "siwe";
 
 export const getAuthSign = async (
   getLitClient: () => Promise<LitNodeClient>,
